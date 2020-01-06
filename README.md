@@ -7,6 +7,13 @@
 - 🦜[snails-api 后台](https://gitee.com/kuzan/snails-api)：Sprint-Boot + JPA + lombok + Java8 + Mysql
 
 
+## 🐶系统搭建过程
+- [a简介](https://gitee.com/kuzan/snails-api/blob/master/document/introduction/a%E7%AE%80%E4%BB%8B.md)
+- [b创建工程项目](https://gitee.com/kuzan/snails-api/blob/master/document/introduction/b%E5%88%9B%E5%BB%BA%E5%B7%A5%E7%A8%8B%E9%A1%B9%E7%9B%AE.md)
+- [cJPA使用](https://gitee.com/kuzan/snails-api/blob/master/document/introduction/cJPA%E4%BD%BF%E7%94%A8.md)
+- [d权限拦截器](https://gitee.com/kuzan/snails-api/blob/master/document/introduction/d%E6%9D%83%E9%99%90%E6%8B%A6%E6%88%AA%E5%99%A8.md)
+
+
 ## 🐫开发环境要求
 - Java 8
 - Maven
