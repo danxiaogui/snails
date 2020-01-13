@@ -21,6 +21,32 @@
 - Node
 
 
+## 系统运行截图
+登陆页面
+![](https://images.gitee.com/uploads/images/2020/0113/180246_e69962a8_2129289.jpeg)
+
+首页
+![](https://images.gitee.com/uploads/images/2020/0113/180246_c4306499_2129289.jpeg)
+
+用户管理页面
+![](https://images.gitee.com/uploads/images/2020/0113/180247_1893cbde_2129289.jpeg)
+
+在线用户
+![](https://images.gitee.com/uploads/images/2020/0113/180249_f2d5c6a3_2129289.jpeg)
+
+登陆日志
+![](https://images.gitee.com/uploads/images/2020/0113/180250_2fe844b0_2129289.jpeg)
+
+http日志
+![](https://images.gitee.com/uploads/images/2020/0113/180254_104c80df_2129289.jpeg)
+
+系统异常
+![](https://images.gitee.com/uploads/images/2020/0113/180256_d9f989b2_2129289.jpeg)
+
+自定义图表
+![](https://images.gitee.com/uploads/images/2020/0113/180258_ae204b6e_2129289.jpeg)
+
+
 ## 🐿学习资源
 - [Angular快速上手](https://angular.cn/guide/quickstart)
 - [Ng-Zorro](https://ng.ant.design/docs/introduce/zh)
