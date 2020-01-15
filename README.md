@@ -23,28 +23,31 @@
 
 ## 系统运行截图
 登陆页面
-![](https://images.gitee.com/uploads/images/2020/0113/180246_e69962a8_2129289.jpeg)
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1gal8b8t8xzj31as0u0wkf.jpg)
 
 首页
-![](https://images.gitee.com/uploads/images/2020/0113/180246_c4306499_2129289.jpeg)
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1gax2oq7gkhj31h90u0qv5.jpg)
 
-用户管理页面
-![](https://images.gitee.com/uploads/images/2020/0113/180247_1893cbde_2129289.jpeg)
+用户管理
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1gax2pf4f6oj31h90u0dm8.jpg)
+
+组织管理
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1gax2q5k5nwj31h70u0gsc.jpg)
 
 在线用户
-![](https://images.gitee.com/uploads/images/2020/0113/180249_f2d5c6a3_2129289.jpeg)
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1gax2qohxb7j31h10u00z3.jpg)
 
 登陆日志
-![](https://images.gitee.com/uploads/images/2020/0113/180250_2fe844b0_2129289.jpeg)
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1gax2rhbq7aj31h70u0an4.jpg)
 
-http日志
-![](https://images.gitee.com/uploads/images/2020/0113/180254_104c80df_2129289.jpeg)
+http请求
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1gax2rynpmgj31h60u0amq.jpg)
 
 系统异常
-![](https://images.gitee.com/uploads/images/2020/0113/180256_d9f989b2_2129289.jpeg)
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1gax2skec9qj31h20u0ai6.jpg)
 
 自定义图表
-![](https://images.gitee.com/uploads/images/2020/0113/180258_ae204b6e_2129289.jpeg)
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1gax2t3alzuj31gz0u0gte.jpg)
 
 
 ## 🐿学习资源
