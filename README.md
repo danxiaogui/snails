@@ -94,7 +94,7 @@ java -jar target/snails-0.1.jar
 
 
 ## 系统运行截图
-### 登陆页面
+### 登陆页面，账号：kuzank，密码：123456
 ![](https://images.gitee.com/uploads/images/2020/0116/115529_4c6de3e2_2129289.jpeg)
 
 ### 首页
