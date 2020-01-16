@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://gitee.com/kuzan/snails">snails</a></h1>
+# <a href="https://gitee.com/kuzan/snails">snails</a>
 一个基于 Spring-Boot + Angular + Ng-Zorro 前后端分离项目的简单实现
 
 
