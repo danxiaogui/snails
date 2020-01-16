@@ -41,35 +41,88 @@
 - Node
 
 
+## 启动系统前提
+[需要有一个 Mysql 数据库](https://gitee.com/kuzan/snails-api/blob/master/src/main/resources/application.yml)
+* ip: localhost
+* port: 3306
+* username: root
+* password: 123456
+* database: snails
+
+
+## 启动系统 - 方法1 【docker】
+```shell
+# 1、打包 snails-web 镜像
+git clone https://gitee.com/kuzan/snails-web.git
+cd snails-web
+docker build -t snails-web .
+
+# 2、打包 snails-api 镜像
+git clone https://gitee.com/kuzan/snails-api.git
+cd snails-api
+mvn package docker:build
+
+# 3、启动 docker 镜像
+# 查看 docker 镜像
+docker images | grep snails
+# 运行 snails-web
+docker run -d --name snails-web -p 4200:4200 snails-web
+# 运行 snails-api
+docker run -d --name snails-api -p 8081:8081 -t snails-api
+# 查看运行中的 docker 实例
+docker ps -a | grep snails
+
+# 4、浏览器访问 localhost:4200 即可
+```
+![](https://images.gitee.com/uploads/images/2020/0116/171913_40cc02d7_2129289.jpeg)
+
+## 启动系统 - 方法2 【Linux or MacBook】
+```shell
+# 1、运行 snails-web
+git clone https://gitee.com/kuzan/snails-web.git
+cd snails-web
+yarn
+npm run start
+
+# 2、运行 snails-api
+git clone https://gitee.com/kuzan/snails-api.git
+cd snails-api
+mvn package
+java -jar target/snails-0.1.jar
+
+# 3、浏览器访问 localhost:4200 即可
+```
+
+
 ## 系统运行截图
-登陆页面
+### 登陆页面
 ![](https://images.gitee.com/uploads/images/2020/0116/115529_4c6de3e2_2129289.jpeg)
 
-首页
+### 首页
 ![](https://images.gitee.com/uploads/images/2020/0116/115529_1495144d_2129289.jpeg)
 
-用户管理
+### 用户管理
 ![](https://images.gitee.com/uploads/images/2020/0116/115529_c0fc1cb6_2129289.jpeg)
 
-组织管理
+### 组织管理
 ![](https://images.gitee.com/uploads/images/2020/0116/115530_d4588fb6_2129289.jpeg)
 
-菜单管理
+### 菜单管理
 ![](https://images.gitee.com/uploads/images/2020/0116/115530_b7cd92de_2129289.jpeg)
 
-在线用户
+### 在线用户
 ![](https://images.gitee.com/uploads/images/2020/0116/115530_8f3b0019_2129289.jpeg)
 
-登陆日志
+### 登陆日志
 ![](https://images.gitee.com/uploads/images/2020/0116/115530_32bf531e_2129289.jpeg)
 
-http请求
+### http请求
 ![](https://images.gitee.com/uploads/images/2020/0116/115530_bfaa1874_2129289.jpeg)
 
-系统异常
+### 系统异常
 ![](https://images.gitee.com/uploads/images/2020/0116/115530_b9fb8f87_2129289.jpeg)
 
-G2图表
+### G2图表
 ![](https://images.gitee.com/uploads/images/2020/0116/115530_a062fb8a_2129289.jpeg)
 
 
