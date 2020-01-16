@@ -8,7 +8,6 @@
 
 
 ## Further
-* [ ]  [snails-web 前端](https://gitee.com/kuzan/snails-web) 支持 Docker 部署
 * [ ]  首页设计
 * [ ]  菜单支持权限配置和控制
 
@@ -25,6 +24,7 @@
 * [x]  支持系统数据初始化
 * [x]  支持 Http Api 权限控制
 * [x]  [snails-api 后台](https://gitee.com/kuzan/snails-api) 支持 Docker 部署
+* [x]  [snails-web 前端](https://gitee.com/kuzan/snails-web) 支持 Docker 部署
 
 
 ## 系统搭建过程
