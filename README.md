@@ -22,7 +22,6 @@
 * [x]  http请求，将系统的所有请求进行拦截，并记录到数据库中
 * [x]  系统异常，全局拦截系统的异常，并记录到数据库中
 * [x]  支持系统数据初始化
-* [x]  支持 Http Api 权限控制
 * [x]  [snails-api 后台](https://gitee.com/kuzan/snails-api) 支持 Docker 部署
 * [x]  [snails-web 前端](https://gitee.com/kuzan/snails-web) 支持 Docker 部署
 
