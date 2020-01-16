@@ -7,6 +7,26 @@
 - [snails-api 后台](https://gitee.com/kuzan/snails-api)：Spring-Boot + JPA + lombok + Java8 + Mysql
 
 
+## Further
+* [ ]  [snails-web 前端](https://gitee.com/kuzan/snails-web) 支持 Docker 部署
+* [ ]  首页设计
+* [ ]  菜单支持权限配置和控制
+
+
+## 系统功能
+* [x]  登陆、登出
+* [x]  用户管理
+* [x]  组织管理
+* [x]  菜单管理，支持菜单动态配置
+* [x]  在线用户
+* [x]  登陆日志，记录系统用户的登陆登出行为
+* [x]  http请求，将系统的所有请求进行拦截，并记录到数据库中
+* [x]  系统异常，全局拦截系统的异常，并记录到数据库中
+* [x]  支持系统数据初始化
+* [x]  支持 Http Api 权限控制
+* [x]  [snails-api 后台](https://gitee.com/kuzan/snails-api) 支持 Docker 部署
+
+
 ## 系统搭建过程
 - [1、简介](https://gitee.com/kuzan/snails-api/blob/master/document/introduction/a%E7%AE%80%E4%BB%8B.md)
 - [2、创建工程项目](https://gitee.com/kuzan/snails-api/blob/master/document/introduction/b%E5%88%9B%E5%BB%BA%E5%B7%A5%E7%A8%8B%E9%A1%B9%E7%9B%AE.md)
@@ -23,31 +43,34 @@
 
 ## 系统运行截图
 登陆页面
-![](https://tva1.sinaimg.cn/large/006tNbRwgy1gal8b8t8xzj31as0u0wkf.jpg)
+![](https://images.gitee.com/uploads/images/2020/0116/115529_4c6de3e2_2129289.jpeg)
 
 首页
-![](https://tva1.sinaimg.cn/large/006tNbRwgy1gax2oq7gkhj31h90u0qv5.jpg)
+![](https://images.gitee.com/uploads/images/2020/0116/115529_1495144d_2129289.jpeg)
 
 用户管理
-![](https://tva1.sinaimg.cn/large/006tNbRwgy1gax2pf4f6oj31h90u0dm8.jpg)
+![](https://images.gitee.com/uploads/images/2020/0116/115529_c0fc1cb6_2129289.jpeg)
 
 组织管理
-![](https://tva1.sinaimg.cn/large/006tNbRwgy1gax2q5k5nwj31h70u0gsc.jpg)
+![](https://images.gitee.com/uploads/images/2020/0116/115530_d4588fb6_2129289.jpeg)
+
+菜单管理
+![](https://images.gitee.com/uploads/images/2020/0116/115530_b7cd92de_2129289.jpeg)
 
 在线用户
-![](https://tva1.sinaimg.cn/large/006tNbRwgy1gax2qohxb7j31h10u00z3.jpg)
+![](https://images.gitee.com/uploads/images/2020/0116/115530_8f3b0019_2129289.jpeg)
 
 登陆日志
-![](https://tva1.sinaimg.cn/large/006tNbRwgy1gax2rhbq7aj31h70u0an4.jpg)
+![](https://images.gitee.com/uploads/images/2020/0116/115530_32bf531e_2129289.jpeg)
 
 http请求
-![](https://tva1.sinaimg.cn/large/006tNbRwgy1gax2rynpmgj31h60u0amq.jpg)
+![](https://images.gitee.com/uploads/images/2020/0116/115530_bfaa1874_2129289.jpeg)
 
 系统异常
-![](https://tva1.sinaimg.cn/large/006tNbRwgy1gax2skec9qj31h20u0ai6.jpg)
+![](https://images.gitee.com/uploads/images/2020/0116/115530_b9fb8f87_2129289.jpeg)
 
-自定义图表
-![](https://tva1.sinaimg.cn/large/006tNbRwgy1gax2t3alzuj31gz0u0gte.jpg)
+G2图表
+![](https://images.gitee.com/uploads/images/2020/0116/115530_a062fb8a_2129289.jpeg)
 
 
 ## 学习资源
