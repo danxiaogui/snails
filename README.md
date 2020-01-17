@@ -1,18 +1,19 @@
-# <a href="https://gitee.com/kuzan/snails">snails</a>
-一个基于 Spring-Boot + Angular + Ng-Zorro 前后端分离项目的简单实现
+# <a href="https://gitee.com/kuzan/snails">Snails 框架</a>
+基于 Spring-Boot + Ng-Alain 前后端分离的实现，可以作为新手入门项目，也可以作为小项目的基础框架去扩展。目前 Snails 系统框架已支持基本的后台功能，基于简单、实用设计，并且已支持 Docker 进行项目部署。
 
 
-- [snails 框架](https://gitee.com/kuzan/snails)：编程入门，新手礼赞
-- [snails-web 前端](https://gitee.com/kuzan/snails-web)：Angular + Ng-Zorro + Ng-Alain
-- [snails-api 后台](https://gitee.com/kuzan/snails-api)：Spring-Boot + JPA + lombok + Java8 + Mysql
+- [Snails 框架](https://gitee.com/kuzan/snails)：编程入门，新手礼赞
+- [snails-web 前端](https://gitee.com/kuzan/snails-web)：[Angular](https://angular.cn/) + [Ng-Zorro](https://ng.ant.design/docs/introduce/zh) + [Ng-Alain](https://ng-alain.com/zh)
+- [snails-api 后台](https://gitee.com/kuzan/snails-api)：SpringBoot + JPA + lombok + Java8 + Mysql
+
+GitHub 地址：[https://gitee.com/kuzan/snails](https://gitee.com/kuzan/snails)
+
+码云 地址：[https://github.com/danxiaogui/snails](https://github.com/danxiaogui/snails)
 
 
-## Further
-* [ ]  首页设计
-* [ ]  菜单支持权限配置和控制
 
+## 1、系统功能
 
-## 系统功能
 * [x]  登陆、登出
 * [x]  用户管理
 * [x]  组织管理
@@ -26,30 +27,21 @@
 * [x]  [snails-web 前端](https://gitee.com/kuzan/snails-web) 支持 Docker 部署
 
 
-## 系统搭建过程
-- [1、简介](https://gitee.com/kuzan/snails-api/blob/master/document/introduction/a%E7%AE%80%E4%BB%8B.md)
-- [2、创建工程项目](https://gitee.com/kuzan/snails-api/blob/master/document/introduction/b%E5%88%9B%E5%BB%BA%E5%B7%A5%E7%A8%8B%E9%A1%B9%E7%9B%AE.md)
-- [3、JPA使用](https://gitee.com/kuzan/snails-api/blob/master/document/introduction/cJPA%E4%BD%BF%E7%94%A8.md)
-- [4、权限拦截器](https://gitee.com/kuzan/snails-api/blob/master/document/introduction/d%E6%9D%83%E9%99%90%E6%8B%A6%E6%88%AA%E5%99%A8.md)
+
+## 2、启动系统前提 - Mysql
+
+Mysql 配置文件地址：[application.yml](https://gitee.com/kuzan/snails-api/blob/master/src/main/resources/application.yml)
+
+| IP        | Port | Username | Password | Database |
+| --------- | ---- | -------- | -------- | -------- |
+| localhost | 3306 | root     | 123456   | snails   |
 
 
-## 开发环境要求
-- Java 8
-- Maven
-- Mysql
-- Node
 
+## 3、启动系统 
 
-## 启动系统前提
-[需要有一个 Mysql 数据库](https://gitee.com/kuzan/snails-api/blob/master/src/main/resources/application.yml)
-* ip: localhost
-* port: 3306
-* username: root
-* password: 123456
-* database: snails
+### 3.1、方法1 【docker】
 
-
-## 启动系统 - 方法1 【docker】
 ```shell
 # 1、打包 snails-web 镜像
 git clone https://gitee.com/kuzan/snails-web.git
@@ -75,7 +67,8 @@ docker ps -a | grep snails
 ```
 ![](https://images.gitee.com/uploads/images/2020/0116/171913_40cc02d7_2129289.jpeg)
 
-## 启动系统 - 方法2 【Linux or MacBook】
+### 3.2、方法2 
+
 ```shell
 # 1、运行 snails-web
 git clone https://gitee.com/kuzan/snails-web.git
@@ -93,39 +86,43 @@ java -jar target/snails-0.1.jar
 ```
 
 
-## 系统运行截图
-### 登陆页面，账号：kuzank，密码：123456
+
+## 4、系统截图 localhost:4200
+
+### 4.1、登陆页面，账号：kuzank，密码：123456
 ![](https://images.gitee.com/uploads/images/2020/0116/115529_4c6de3e2_2129289.jpeg)
 
-### 首页
+### 4.2、首页
 ![](https://images.gitee.com/uploads/images/2020/0116/115529_1495144d_2129289.jpeg)
 
-### 用户管理
+### 4.3、用户管理
 ![](https://images.gitee.com/uploads/images/2020/0116/115529_c0fc1cb6_2129289.jpeg)
 
-### 组织管理
+### 4.4、组织管理
 ![](https://images.gitee.com/uploads/images/2020/0116/115530_d4588fb6_2129289.jpeg)
 
-### 菜单管理
+### 4.5、菜单管理
 ![](https://images.gitee.com/uploads/images/2020/0116/115530_b7cd92de_2129289.jpeg)
 
-### 在线用户
+### 4.6、在线用户
 ![](https://images.gitee.com/uploads/images/2020/0116/115530_8f3b0019_2129289.jpeg)
 
-### 登陆日志
+### 5.7、登陆日志
 ![](https://images.gitee.com/uploads/images/2020/0116/115530_32bf531e_2129289.jpeg)
 
-### http请求
+### 4.8、http请求
 ![](https://images.gitee.com/uploads/images/2020/0116/115530_bfaa1874_2129289.jpeg)
 
-### 系统异常
+### 4.9、系统异常
 ![](https://images.gitee.com/uploads/images/2020/0116/115530_b9fb8f87_2129289.jpeg)
 
-### G2图表
+### 4.10、G2图表
 ![](https://images.gitee.com/uploads/images/2020/0116/115530_a062fb8a_2129289.jpeg)
 
 
-## 学习资源
+
+## 5、学习资源
+
 - [Angular快速上手](https://angular.cn/guide/quickstart)
 - [Ng-Zorro](https://ng.ant.design/docs/introduce/zh)
 - [Ng-Alain](https://ng-alain.com/)
@@ -134,3 +131,4 @@ java -jar target/snails-0.1.jar
 - [Java8](https://zhuanlan.zhihu.com/java8)
 - [lombok](https://www.jianshu.com/p/365ea41b3573)
 - [SpringBoot 中 JPA 的使用](https://www.jianshu.com/p/c14640b63653)
+
