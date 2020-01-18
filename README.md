@@ -1,10 +1,10 @@
 # <a href="https://gitee.com/kuzan/snails">Snails 框架</a>
-基于 Spring-Boot + Ng-Alain 前后端分离的实现，可以作为新手入门项目，也可以作为小项目的基础框架去扩展。目前 Snails 系统框架已支持基本的后台功能，基于简单、实用设计，并且已支持 [Docker](https://www.docker.com/) 进行项目部署。
+基于 [SpringBoot](https://spring.io/projects/spring-boot) + [Ng-Alain](https://ng-alain.com/) 前后端分离的实现，可以作为新手入门项目，也可以作为小项目的基础框架去扩展。目前 [Snails](https://zhuanlan.zhihu.com/p/103187754) 系统框架已支持基本的后台功能，基于简单、实用设计，并且已支持 [Docker](https://www.docker.com/) 进行项目部署。
 
 
 - [Snails 框架](https://gitee.com/kuzan/snails)：编程入门，新手礼赞
-- [snails-web 前端](https://gitee.com/kuzan/snails-web)：[Angular](https://angular.cn/) + [Ng-Zorro](https://ng.ant.design/docs/introduce/zh) + [Ng-Alain](https://ng-alain.com/zh)
-- [snails-api 后台](https://gitee.com/kuzan/snails-api)：SpringBoot + JPA + lombok + Java8 + Mysql
+- [snails-web 前端](https://gitee.com/kuzan/snails-web)：[Angular](https://angular.cn/) + [Ng-Zorro](https://ng.ant.design/docs/introduce/zh) + [Ng-Alain](https://ng-alain.com)
+- [snails-api 后台](https://gitee.com/kuzan/snails-api)：[SpringBoot](https://spring.io/projects/spring-boot) + [JPA ](https://spring.io/guides/gs/accessing-data-jpa/)+ [lombok](https://projectlombok.org/) + [Java8](https://zhuanlan.zhihu.com/java8) + Mysql
 
 GitHub 地址：[https://gitee.com/kuzan/snails](https://gitee.com/kuzan/snails)
 
