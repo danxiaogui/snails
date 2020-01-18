@@ -1,5 +1,5 @@
 # <a href="https://gitee.com/kuzan/snails">Snails 框架</a>
-基于 Spring-Boot + Ng-Alain 前后端分离的实现，可以作为新手入门项目，也可以作为小项目的基础框架去扩展。目前 Snails 系统框架已支持基本的后台功能，基于简单、实用设计，并且已支持 Docker 进行项目部署。
+基于 Spring-Boot + Ng-Alain 前后端分离的实现，可以作为新手入门项目，也可以作为小项目的基础框架去扩展。目前 Snails 系统框架已支持基本的后台功能，基于简单、实用设计，并且已支持 [Docker](https://www.docker.com/) 进行项目部署。
 
 
 - [Snails 框架](https://gitee.com/kuzan/snails)：编程入门，新手礼赞
@@ -132,3 +132,6 @@ java -jar target/snails-0.1.jar
 - [lombok](https://www.jianshu.com/p/365ea41b3573)
 - [SpringBoot 中 JPA 的使用](https://www.jianshu.com/p/c14640b63653)
 
+
+## 开源许可证
+MIT
