@@ -1,4 +1,4 @@
-# <a href="https://gitee.com/kuzan/snails">Snails 框架</a>
+# Snails 框架
 基于 [SpringBoot](https://spring.io/projects/spring-boot) + [Ng-Alain](https://ng-alain.com/) 前后端分离的实现，可以作为新手入门项目，也可以作为小项目的基础框架去扩展。目前 [Snails](https://zhuanlan.zhihu.com/p/103187754) 系统框架已支持基本的后台功能，基于简单、实用设计，并且已支持 [Docker](https://www.docker.com/) 进行项目部署。
 
 
