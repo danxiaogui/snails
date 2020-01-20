@@ -93,7 +93,7 @@ java -jar target/snails-0.1.jar
 ![](https://images.gitee.com/uploads/images/2020/0116/115529_4c6de3e2_2129289.jpeg)
 
 ### 4.2、首页
-![](https://images.gitee.com/uploads/images/2020/0116/115529_1495144d_2129289.jpeg)
+![](https://images.gitee.com/uploads/images/2020/0120/145811_7b0794b0_2129289.jpeg)
 
 ### 4.3、用户管理
 ![](https://images.gitee.com/uploads/images/2020/0116/115529_c0fc1cb6_2129289.jpeg)
