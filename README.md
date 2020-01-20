@@ -119,7 +119,6 @@ java -jar target/snails-0.1.jar
 ![](https://images.gitee.com/uploads/images/2020/0116/115530_a062fb8a_2129289.jpeg)
 
 
-
 ## 5、学习资源
 
 - [Angular快速上手](https://angular.cn/guide/quickstart)
