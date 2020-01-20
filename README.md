@@ -1,6 +1,7 @@
 # Snails 框架
-基于 [SpringBoot](https://spring.io/projects/spring-boot) + [Ng-Alain](https://ng-alain.com/) 前后端分离的实现，可以作为新手入门项目，也可以作为小项目的基础框架去扩展。目前 [Snails](https://zhuanlan.zhihu.com/p/103187754) 系统框架已支持基本的后台功能，基于简单、实用设计，并且已支持 [Docker](https://www.docker.com/) 进行项目部署。
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1gb31ak9yfqj31h20u047a.jpg)
 
+基于 [SpringBoot](https://spring.io/projects/spring-boot) + [Ng-Alain](https://ng-alain.com/) 前后端分离的实现，可以作为新手入门项目，也可以作为小项目的基础框架去扩展。目前 [Snails](https://zhuanlan.zhihu.com/p/103187754) 系统框架已支持基本的后台功能，基于简单、实用设计，并且已支持 [Docker](https://www.docker.com/) 进行项目部署。
 
 - [Snails 框架](https://gitee.com/kuzan/snails)：编程入门，新手礼赞
 - [snails-web 前端](https://gitee.com/kuzan/snails-web)：[Angular](https://angular.cn/) + [Ng-Zorro](https://ng.ant.design/docs/introduce/zh) + [Ng-Alain](https://ng-alain.com)
@@ -11,9 +12,7 @@ GitHub 地址：[https://gitee.com/kuzan/snails](https://gitee.com/kuzan/snails)
 码云 地址：[https://github.com/danxiaogui/snails](https://github.com/danxiaogui/snails)
 
 
-
 ## 1、系统功能
-
 * [x]  登陆、登出
 * [x]  用户管理
 * [x]  组织管理
@@ -93,7 +92,7 @@ java -jar target/snails-0.1.jar
 ![](https://images.gitee.com/uploads/images/2020/0116/115529_4c6de3e2_2129289.jpeg)
 
 ### 4.2、首页
-![](https://images.gitee.com/uploads/images/2020/0116/115529_1495144d_2129289.jpeg)
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1gb31ak9yfqj31h20u047a.jpg)
 
 ### 4.3、用户管理
 ![](https://images.gitee.com/uploads/images/2020/0116/115529_c0fc1cb6_2129289.jpeg)
