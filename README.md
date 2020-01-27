@@ -7,9 +7,13 @@
 - [snails-web 前端](https://gitee.com/kuzan/snails-web)：[Angular](https://angular.cn/) + [Ng-Zorro](https://ng.ant.design/docs/introduce/zh) + [Ng-Alain](https://ng-alain.com)
 - [snails-api 后台](https://gitee.com/kuzan/snails-api)：[SpringBoot](https://spring.io/projects/spring-boot) + [JPA ](https://spring.io/guides/gs/accessing-data-jpa/)+ [lombok](https://projectlombok.org/) + [Java8](https://zhuanlan.zhihu.com/java8) + Mysql
 
-GitHub 地址：[https://gitee.com/kuzan/snails](https://gitee.com/kuzan/snails)
-
-码云 地址：[https://github.com/danxiaogui/snails](https://github.com/danxiaogui/snails)
+### 源码
+* 前端 snails-web
+> Gitee：[https://gitee.com/kuzan/snails-web](https://gitee.com/kuzan/snails-web)
+GitHub：[https://github.com/danxiaogui/snails-web](https://github.com/danxiaogui/snails-web)
+* 后台 snails-api
+> Gitee：[https://gitee.com/kuzan/snails-api](https://gitee.com/kuzan/snails-api)
+ github：[https://github.com/danxiaogui/snails-api](https://github.com/danxiaogui/snails-api)
 
 
 ## 1、系统功能
