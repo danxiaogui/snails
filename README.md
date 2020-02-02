@@ -120,7 +120,7 @@ java -jar target/snails-0.1.jar
 ![](https://gitee.com/kuzan/Resource/raw/master/Snails/picture/b_dashboard.jpg)
 
 ### 4.3、用户管理
-![](https://gitee.com/kuzan/Resource/raw/master/Snails/picture/b_dashboard.jpg)
+![](https://gitee.com/kuzan/Resource/raw/master/Snails/picture/c_userManage.jpg)
 
 ### 4.4、组织管理
 ![](https://gitee.com/kuzan/Resource/raw/master/Snails/picture/d_orgunitManage.jpg)
