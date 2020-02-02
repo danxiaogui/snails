@@ -1,20 +1,26 @@
 # Snails 框架
 ![](https://gitee.com/kuzan/Resource/raw/master/Snails/picture/b_dashboard.jpg)
 
-基于 [SpringBoot](https://spring.io/projects/spring-boot) + [Ng-Alain](https://ng-alain.com/) 前后端分离的实现，可以作为新手入门项目，也可以作为小项目的基础框架去扩展。目前 [Snails](https://zhuanlan.zhihu.com/p/103187754) 系统框架已支持基本的后台功能，基于简单、实用设计，并且已支持 [Docker](https://www.docker.com/) 进行项目部署。
+基于 [SpringBoot](https://spring.io/projects/spring-boot) + [Ng-Alain](https://ng-alain.com/) `前后端分离`的实现，可以作为新手入门项目，也可以作为小项目的`基础框架`去扩展。目前 [Snails](https://zhuanlan.zhihu.com/p/103187754) 系统框架已支持基本的后台功能，基于`简单`、`实用`设计，并且已支持 [Docker](https://www.docker.com/) 进行项目部署。
 
-- **Snails** 框架：编程入门，新手礼赞
-- **snails-web** 前端：[Angular](https://angular.cn/) + [Ng-Zorro](https://ng.ant.design/docs/introduce/zh) + [Ng-Alain](https://ng-alain.com)
-- **snails-api** 后台：[SpringBoot](https://spring.io/projects/spring-boot) + [JPA ](https://spring.io/guides/gs/accessing-data-jpa/)+ [lombok](https://projectlombok.org/) + [Java8](https://zhuanlan.zhihu.com/java8) + Mysql
+- `Snails 框架`：编程入门，新手礼赞
+- `snails-web 前端`：[Angular](https://angular.cn/) + [Ng-Zorro](https://ng.ant.design/docs/introduce/zh) + [Ng-Alain](https://ng-alain.com)
+- `snails-api 后台`：[SpringBoot](https://spring.io/projects/spring-boot) + [JPA ](https://spring.io/guides/gs/accessing-data-jpa/)+ [lombok](https://projectlombok.org/) + [Java8](https://zhuanlan.zhihu.com/java8) + Mysql
 
-### 源码
+**基于国内访问速度考虑，建议使用 [码云](https://gitee.com/kuzan/snails) 进行访问 [https://gitee.com/kuzan/snails](https://gitee.com/kuzan/snails) **
 
-|                      | Gitee                                                        | GitHub                                                       |
+|      `框架源码`     | Gitee                                                        | GitHub                                                       |
 | -------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Snails** 框架      | [https://gitee.com/kuzan/snails](https://gitee.com/kuzan/snails) | [https://github.com/danxiaogui/snails](https://github.com/danxiaogui/snails) |
 | **Snails-web** 前端  | [https://gitee.com/kuzan/snails-web](https://gitee.com/kuzan/snails-web) | [https://github.com/danxiaogui/snails-web](https://github.com/danxiaogui/snails-web) |
 | **Snails-api**  后台 | [https://gitee.com/kuzan/snails-api](https://gitee.com/kuzan/snails-api) | [https://github.com/danxiaogui/snails-api](https://github.com/danxiaogui/snails-api) |
 
+欢迎到 `Gitee` 或者 `GitHub` 上提 `issue`
+
+| `issue 渠道` | 访问地址                                                     |
+| ------------ | ------------------------------------------------------------ |
+| **Gitee**    | [https://gitee.com/kuzan/snails/issues](https://gitee.com/kuzan/snails/issues) |
+| **GitHub**   | [https://github.com/danxiaogui/snails/issues](https://github.com/danxiaogui/snails/issues) |
 
 
 ## 1、系统功能
@@ -28,13 +34,13 @@
 * [x]  http请求，将系统的所有请求进行拦截，并记录到数据库中
 * [x]  系统异常，全局拦截系统的异常，并记录到数据库中
 * [x]  支持系统数据初始化
-* [x]   **snails-web** 前端及 **snails-api** 后台支持 **Docker** 部署
+* [x]  支持 `Docker` 部署
 
 
 
-## 2、启动系统前提 - Mysql
+## 2、启动系统前提 `Mysql`
 
-Mysql 配置文件地址：/snails-api/src/main/resources/application.yml
+Mysql 配置文件地址：`/snails-api/src/main/resources/application.yml`
 
 | IP        | Port | Username | Password | Database |
 | --------- | ---- | -------- | -------- | -------- |
@@ -44,9 +50,9 @@ Mysql 配置文件地址：/snails-api/src/main/resources/application.yml
 
 ## 3、启动系统 
 
-### 3.1、方法一 ：Docker
+### 3.1、方法一 `Docker`
 
-前提：系统已安装和配置 **Java8**、**Git**、**Maven**、**Docker**
+前提：系统已安装和配置 `Java8`、`Git`、`Maven`、`Docker`
 
 ```shell
 # 1、打包 snails-web 镜像
@@ -75,7 +81,7 @@ docker ps -a | grep snails
 ```
 ### 3.2、方法二
 
-前提：系统已安装和配置 **Java8**、**Git**、**Maven**、**Node**
+前提：系统已安装和配置 `Java8`、`Git`、`Maven`、`Node`
 
 ```shell
 # 1、运行 snails-web
