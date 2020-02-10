@@ -1,8 +1,9 @@
 ### 源码仓库已迁移到 [gitee.com/kuzank](gitee.com/kuzank)，此账号下的工程不再提供维护，请移步访问[gitee.com/kuzank](gitee.com/kuzank)
 
 
+
 # Snails 框架
-![](https://gitee.com/kuzan/Resource/raw/master/Snails/picture/b_dashboard.jpg)
+![](https://gitee.com/kuzank/Resource/raw/master/Snails/picture/b_dashboard.jpg)
 
 基于 [SpringBoot](https://spring.io/projects/spring-boot) + [Ng-Alain](https://ng-alain.com/) `前后端分离`的实现，可以作为新手入门项目，也可以作为小项目的`基础框架`去扩展。目前 [Snails](https://zhuanlan.zhihu.com/p/103187754) 系统框架已支持基本的后台功能，基于`简单`、`实用`设计，并且已支持 [Docker](https://www.docker.com/) 进行项目部署。
 
@@ -10,20 +11,20 @@
 - `snails-web 前端`：[Angular](https://angular.cn/) + [Ng-Zorro](https://ng.ant.design/docs/introduce/zh) + [Ng-Alain](https://ng-alain.com)
 - `snails-api 后台`：[SpringBoot](https://spring.io/projects/spring-boot) + [JPA ](https://spring.io/guides/gs/accessing-data-jpa/)+ [lombok](https://projectlombok.org/) + [Java8](https://zhuanlan.zhihu.com/java8) + Mysql
 
-**基于国内访问速度考虑，建议使用 [码云](https://gitee.com/kuzan/snails) 进行访问 [https://gitee.com/kuzan/snails](https://gitee.com/kuzan/snails) **
+**基于国内访问速度考虑，建议使用 [码云](https://gitee.com/kuzank/snails) 进行访问 [https://gitee.com/kuzank/snails](https://gitee.com/kuzank/snails) **
 
 |      `框架源码`     | Gitee                                                        | GitHub                                                       |
 | -------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Snails** 框架      | [https://gitee.com/kuzan/snails](https://gitee.com/kuzan/snails) | [https://github.com/danxiaogui/snails](https://github.com/danxiaogui/snails) |
-| **Snails-web** 前端  | [https://gitee.com/kuzan/snails-web](https://gitee.com/kuzan/snails-web) | [https://github.com/danxiaogui/snails-web](https://github.com/danxiaogui/snails-web) |
-| **Snails-api**  后台 | [https://gitee.com/kuzan/snails-api](https://gitee.com/kuzan/snails-api) | [https://github.com/danxiaogui/snails-api](https://github.com/danxiaogui/snails-api) |
+| **Snails** 框架      | [https://gitee.com/kuzank/snails](https://gitee.com/kuzank/snails) | [https://github.com/kuzank/snails](https://github.com/kuzank/snails) |
+| **Snails-web** 前端  | [https://gitee.com/kuzank/snails-web](https://gitee.com/kuzank/snails-web) | [https://github.com/kuzank/snails-web](https://github.com/kuzank/snails-web) |
+| **Snails-api**  后台 | [https://gitee.com/kuzank/snails-api](https://gitee.com/kuzank/snails-api) | [https://github.com/kuzank/snails-api](https://github.com/kuzank/snails-api) |
 
 欢迎到 `Gitee` 或者 `GitHub` 上提 `issue`
 
 | `issue 渠道` | 访问地址                                                     |
 | ------------ | ------------------------------------------------------------ |
-| **Gitee**    | [https://gitee.com/kuzan/snails/issues](https://gitee.com/kuzan/snails/issues) |
-| **GitHub**   | [https://github.com/danxiaogui/snails/issues](https://github.com/danxiaogui/snails/issues) |
+| **Gitee**    | [https://gitee.com/kuzank/snails/issues](https://gitee.com/kuzank/snails/issues) |
+| **GitHub**   | [https://github.com/kuzank/snails/issues](https://github.com/kuzank/snails/issues) |
 
 
 ## 1、系统功能
@@ -59,12 +60,12 @@ Mysql 配置文件地址：`/snails-api/src/main/resources/application.yml`
 
 ```shell
 # 1、打包 snails-web 镜像
-git clone https://gitee.com/kuzan/snails-web.git
+git clone https://gitee.com/kuzank/snails-web.git
 cd snails-web
 docker build -t snails-web .
 
 # 2、打包 snails-api 镜像
-git clone https://gitee.com/kuzan/snails-api.git
+git clone https://gitee.com/kuzank/snails-api.git
 cd snails-api
 # 根据步骤 2 所示，修改代码中的 Mysql 配置 /snails-api/src/main/resources/application.yml
 # 使用部署系统中 Docker 的 Mysql 作为数据库连接可能导致启动报错
@@ -88,13 +89,13 @@ docker ps -a | grep snails
 
 ```shell
 # 1、运行 snails-web
-git clone https://gitee.com/kuzan/snails-web.git
+git clone https://gitee.com/kuzank/snails-web.git
 cd snails-web
 yarn
 npm run start
 
 # 2、运行 snails-api
-git clone https://gitee.com/kuzan/snails-api.git
+git clone https://gitee.com/kuzank/snails-api.git
 cd snails-api
 # 根据步骤 2 所示，修改代码中的 Mysql 配置 /snails-api/src/main/resources/application.yml
 mvn package
@@ -117,40 +118,40 @@ java -jar target/snails-0.1.jar
 | kuzank     | kuzank     | 123456 | 所属组织：Snails Studio > 技术部 |
 | danxiaogui | danxiaogui | 123456 | 所属组织：Snails Studio > 财务部 |
 
-![](https://gitee.com/kuzan/Resource/raw/master/Snails/picture/a_login.jpg)
+![](https://gitee.com/kuzank/Resource/raw/master/Snails/picture/a_login.jpg)
 
 ### 4.2、首页
-![](https://gitee.com/kuzan/Resource/raw/master/Snails/picture/b_dashboard.jpg)
+![](https://gitee.com/kuzank/Resource/raw/master/Snails/picture/b_dashboard.jpg)
 
 ### 4.3、用户管理
-![](https://gitee.com/kuzan/Resource/raw/master/Snails/picture/c_userManage.jpg)
+![](https://gitee.com/kuzank/Resource/raw/master/Snails/picture/c_userManage.jpg)
 
 ### 4.4、组织管理
-![](https://gitee.com/kuzan/Resource/raw/master/Snails/picture/d_orgunitManage.jpg)
+![](https://gitee.com/kuzank/Resource/raw/master/Snails/picture/d_orgunitManage.jpg)
 
 ### 4.5、菜单管理
 > 菜单配置及菜单权限配置
 
-![](https://gitee.com/kuzan/Resource/raw/master/Snails/picture/e_menuManage.jpg)
+![](https://gitee.com/kuzank/Resource/raw/master/Snails/picture/e_menuManage.jpg)
 
 > 用户菜单权限预览
 
-![](https://gitee.com/kuzan/Resource/raw/master/Snails/picture/f_menuPermissionPreview.jpg)
+![](https://gitee.com/kuzank/Resource/raw/master/Snails/picture/f_menuPermissionPreview.jpg)
 
 ### 4.6、在线用户
-![](https://gitee.com/kuzan/Resource/raw/master/Snails/picture/g_onlineUser.jpg)
+![](https://gitee.com/kuzank/Resource/raw/master/Snails/picture/g_onlineUser.jpg)
 
 ### 5.7、登陆日志
-![](https://gitee.com/kuzan/Resource/raw/master/Snails/picture/h_loginLog.jpg)
+![](https://gitee.com/kuzank/Resource/raw/master/Snails/picture/h_loginLog.jpg)
 
 ### 4.8、http请求
-![](https://gitee.com/kuzan/Resource/raw/master/Snails/picture/i_httpRequest.jpg)
+![](https://gitee.com/kuzank/Resource/raw/master/Snails/picture/i_httpRequest.jpg)
 
 ### 4.9、系统异常
-![](https://gitee.com/kuzan/Resource/raw/master/Snails/picture/j_systemException.jpg)
+![](https://gitee.com/kuzank/Resource/raw/master/Snails/picture/j_systemException.jpg)
 
 ### 4.10、G2图表
-![](https://gitee.com/kuzan/Resource/raw/master/Snails/picture/k_g2Custom.jpg)
+![](https://gitee.com/kuzank/Resource/raw/master/Snails/picture/k_g2Custom.jpg)
 
 
 ## 5、学习资源
@@ -161,6 +162,14 @@ java -jar target/snails-0.1.jar
 - [Spring系列-程序员DD](http://blog.didispace.com/)
 - [Spring系列-纯洁的微笑](http://www.ityouknow.com/spring-boot.html)
 - [Java8](https://zhuanlan.zhihu.com/java8)
+- [lombok](https://www.jianshu.com/p/365ea41b3573)
+- [SpringBoot 中 JPA 的使用](https://www.jianshu.com/p/c14640b63653)
+
+
+## 开源许可证
+MIT
+
+Java8](https://zhuanlan.zhihu.com/java8)
 - [lombok](https://www.jianshu.com/p/365ea41b3573)
 - [SpringBoot 中 JPA 的使用](https://www.jianshu.com/p/c14640b63653)
 
